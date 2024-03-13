@@ -19,11 +19,14 @@ nav a{
     display: flex;
     width: fit-content;
     height: fit-content;
-    background-color: #2f5268;
+    background-color: #002f4a;
     color: white;
     width:50%;
     align-items: center;
     justify-content: center;
+}
+.clr{
+    color: #3ff;
 }
 .h-card1{
     font-size: 42px;
@@ -31,6 +34,5 @@ nav a{
     
 }
 .h-image{
-    width:100px;
-    height:100px;
+    /* s */
 }
