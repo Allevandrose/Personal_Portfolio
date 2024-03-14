@@ -1,9 +1,9 @@
 body{
-    background-color: #f0f0f0;
+    background-color: #c3c3c3;
     font-family: "Kanit", sans-serif;
 }
 nav{
-    background-color:#2f5268;
+    background-color:#002f4a;
     display: flex;
     justify-content: space-evenly;
     padding: 20px;
@@ -17,22 +17,36 @@ nav a{
 }
 .h-cards{
     display: flex;
-    width: fit-content;
-    height: fit-content;
-    background-color: #002f4a;
-    color: white;
-    width:50%;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap:wrap;    
 }
 .clr{
     color: #3ff;
 }
 .h-card1{
-    font-size: 42px;
-    display: flex;
-    
+   min-height:200px;
+    background-color: #002f4a;
+    width:48%;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    display: flex;   
+}
+.h-card2{
+    min-height:200px;
+    background-color: #002f4a;
+    width:48%;
+    color: white;
+    align-items: center;
+    justify-content:flex-end;
+    font-size: 40px;
+    display: flex;    
 }
 .h-image{
-    /* s */
+   width: 27%;
+}
+.h-body{
+    font-size: 16px;
+    padding: 10px;
 }
