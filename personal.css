@@ -1,0 +1,15 @@
+.navbar-brand:hover{
+      background: linear-gradient(to bottom right, #4CAF50, #FFC0CB, #4169E1);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+}
+.nav-link:hover{
+     background: linear-gradient(to bottom right, #4CAF50, #FFC0CB, #4169E1);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+}
+.btn{
+   position: fixed;
+    bottom: auto;
+    left: auto;
+}
