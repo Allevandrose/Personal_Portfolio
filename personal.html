@@ -1,62 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="personal.css">
   <!-- bootstrtap cdn -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <!-- ########## -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-<!-- ########### -->
-  <style>
-    body {
-        background: linear-gradient(to bottom right, #4CAF50, #FFC0CB, #4169E1);
-        height: auto;
-        font-family: "Josefin Sans", sans-serif;
-        font-weight: <weight>;
-        font-style: normal;
-        margin: 0;
-    }
-    .intro{
-      font-weight:bolder;
-      font-size: 44px;
-    }
-    .blue{
-      background: linear-gradient(120deg, rgb(10, 188, 173), hotpink, rgb(34, 34, 100), rgb(59, 197, 13),aqua);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-    /* **********************TRIAL********************************** */
-     /* Custom styles for demonstration */
-     .section-a, .section-b {
-      padding: 20px;
-    }
-    .section-a {
-      margin-right: 200px;
-    }
-
-      
-      .image{
-          width: 280px;
-          height: auto;
-      }
-      .btn:hover{
-          transform: scale(1.2);
-          transition: .4s;
-           background: linear-gradient(120deg, rgb(10, 188, 173), hotpink, rgb(34, 34, 100), rgb(59, 197, 13),aqua);
-          
-      }
-</style>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+    rel="stylesheet">
+  <!-- ########### -->
 </head>
+
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
     <div class="container">
       <a class="navbar-brand" href="#">IBRAHIM MULEI</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
@@ -68,7 +34,8 @@
             <a class="nav-link" href="#">SERVICES</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
               PROJECTS
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
@@ -78,7 +45,8 @@
             </ul>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
               ABOUT
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
@@ -95,9 +63,9 @@
     </div>
   </nav>
   <!-- end of nav -->
-  
-   
- 
+
+
+
   <!-- --------------TRIAL------------------------- -->
   <div class="container-fluid">
     <div class="row">
@@ -106,23 +74,21 @@
           <div class="section-a">
             <div class="intro">
               Hello I'm Ibrahim Mulei<br><span class="blue"> A software Developer</span><br>
-             <button type="button" class="btn btn-primary text-center justify-content-center d">
-               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"       class="bi     bi-download" viewBox="0 0 16 16"> 
-                 <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"/>
-                 <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z"/>
-               </svg>
-               Download CV
-             </button>
-           </div>
+              <a href="CV FINAL.pdf" download class="button">Download <b>CV</b> <img src="download-2-32.png" alt="image"
+                  style="margin: 5px;"></a>
+            </div>
           </div>
-            <img src="fb.png" alt="Image" class="image">
+          <img src="fb.png" alt="Image" class="image">
         </div>
       </div>
     </div>
   </div>
-  
+
 
   <!-- js cdn -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
